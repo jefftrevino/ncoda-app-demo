@@ -1,6 +1,6 @@
 # ncoda nteract-binder proof of concept thinger
 
-based mightily upon Jupytercon18 code and  in-person aid by the nteract team, as directed in this workshop repository --
+based mightily upon Jupytercon18 code and  in-person aid by the nteract team, as directed in [this workshop repository](https://github.com/rgbkrk/jupyter-app-demo) --
 
 # Getting started
 
