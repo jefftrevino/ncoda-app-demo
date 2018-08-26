@@ -13,7 +13,7 @@ class Editor extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      source: "import this",
+      source: "import abjad\n%load_ext abjadext.ipython\nnote=abjad.Note()\nabjad.show(note)",
       parentMessageId: null
     };
   }
@@ -78,17 +78,19 @@ class Editor extends React.Component {
 const Index = () => {
   return (
     <div className="app">
+      <h1>JULIUS</h1>
       <Kernel
-        repo="binder-examples/requirements"
+        // repo="binder-examples/requirements"
+        repo="Abjad/intensive"
         kernelName="python3"
       >
         <Kernel.Consumer>
           {kernel =>
             kernel ? (
               <CodeState kernel={kernel}>
-                <Editor />
+                 {/* <Editor /> */}
                 <PresentationCell />
-                <Debug />
+                {/* <Debug /> */}
               </CodeState>
             ) : (
               <div>No kernel yet</div>
@@ -104,7 +106,9 @@ const Index = () => {
             "Apple Color Emoji", "Segoe UI Emoji",
             "Segoe UI Symbol";
         }
-
+        h1 {
+          text-align: right;
+        }
         header {
           font-size: 1em;
           padding-bottom: 20px;
