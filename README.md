@@ -1,3 +1,7 @@
+# ncoda nteract-binder proof of concept thinger
+
+based mightily on Jupytercon18 code and  in-person aid by @rgbkrk, as directed in this workshop repository --
+
 # Getting started
 
 ```bash
