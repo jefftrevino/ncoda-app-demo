@@ -5,9 +5,9 @@ based mightily upon Jupytercon18 code and  in-person aid by the nteract team, as
 # Getting started
 
 ```bash
-git clone https://github.com/rgbkrk/jupyter-app-demo
+git clone https://github.com/rgbkrk/ncoda-app-demo
 
-cd jupyter-app-demo
+cd ncoda-app-demo
 # git clean -xfd
 # git pull
 
